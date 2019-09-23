@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Heebo|Saira+Extra+Condensed&display=swap');
+
+#name{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+a{
+  color:grey;
+  text-decoration: none;
+}
+a:hover{
+  background-color:pink;
+}
+
+h2{
+  font-family:'Heebo';
+}
+
+h3{
+  font-family:'Heebo';
+}
+
+.italics{
+  font-style: italic;
+  font-size: 30px;
+}
+
+.underline{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#description{
+  font-size: 20px;
+  color: orange;
+}
+
+.orange{
+  background-color: orange;
+}
+
+#bolder{
+  font-weight: bolder;
+}
+
+#addresschange{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+#pink{
+  color: pink;
+}
