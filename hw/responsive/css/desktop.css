@@ -1,0 +1,154 @@
+header{
+  background-color: papayawhip;
+  width: 710px;
+  /* height: 100px; */
+  height: auto;
+  padding: 20px; /* top right bottom left */
+
+  border-width: 5px;/* top right bottom left */
+  border-color: lightblue;
+  border-style: solid;
+
+  margin: 10px auto 30px auto; /* top right bottom left */
+  margin: 0 auto; /* top and bottom, right and left */
+  margin-top: -10px;
+
+}
+main{
+  background-color: lightblue;
+  width: 710px; /* width adjusted for padding and border*/
+  /* height: 100px; */
+  height: auto; /*height auto automatically adjusts the height of your container based on content */
+  padding: 20px; /* add inner spacing 20px top, right, bottom, left */
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: papayawhip;
+
+  /* Margin adjusts spacing around container, setting left and right to auto, centers container, margin auto only works if you have a width dimension */
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+}
+footer{
+  background-color: papayawhip;
+  border-width: 5px;
+  border-style: solid;
+  border-color: lightblue;
+
+
+
+  width: 750px;
+  height: 100px;
+  /* height: auto; if no content is in container, the box will collapse on itself, or disappear */
+
+  margin: 0 auto;
+
+}
+
+nav{
+  background-color: papayawhip;
+  width: 720px;
+  margin: 0 auto; /* */
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px
+}
+
+nav ul li:hover{
+  background-color: lightblue;
+}
+
+.center{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+#grid1{
+  width:680px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 225px;
+  grid-template-columns: 230px 430px;
+  grid-column-gap: 20px;
+
+}
+
+#grid2{
+  width: 680px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 425px;
+  grid-template-columns: 150px 300px 190px;
+  grid-column-gap: 20px;
+}
+
+#grid2 img{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+#Hobbies{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+
+}
+
+#Hobbies img{
+  width: 520px;
+
+}
+ #grid3{
+   width: 680px;
+   height: auto;
+   margin: 20px auto;
+   display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 80px 280px 280px;
+   grid-column-gap: 20px;
+ }
+#grid3 img{
+  width: 200px;
+  /* margin: top/bottom left/right */
+  margin: 10px auto;
+  display: block;
+}
+
+#grid4{
+  width: 680px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 325px;
+  grid-template-columns: 210px 410px;
+  grid-column-gap: 20px;
+}
+
+#video{
+  width: 320px;
+  margin: 0 auto;
+}
