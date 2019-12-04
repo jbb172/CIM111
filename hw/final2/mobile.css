@@ -1,0 +1,9 @@
+@import "desktop.css";
+
+
+#subSection1{
+  width: 300px;
+  margin: 50px auto;
+  display: block;
+
+}

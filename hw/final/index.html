@@ -1,21 +1,108 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>Sweet!</title>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="author" content="Julia Barger">
+    <meta name="descrition" content="this website dessert website">
+    <meta name="keywords" content="html, dessert, rating, learning">
+
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 600px)">
+    <!-- max-width less than 600px -->
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
+    <style>
+    </style>
   </head>
   <body>
 
+    <header>
+      <h1 id="Home" class="center">Sweet!</h1>
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#BiggChill">Bigg Chill</a></li>
+          <li><a href="#SaltandStraw">Salt and Straw</a></li>
+          <li><a href="#Kith">Kith</a></li>
+          <li><a href="#DiddyReiss">Diddy Riese</a></li>
+        </ul>
+      </nav>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152815526-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    </header>
+    <main>
 
-      gtag('config', 'UA-152815526-1');
+    <section id="grid1">
+      <h1 id="About">About</h1>
+      <p>Welcome to Sweet! This is a website for dessert lovers in or traveling to Los Angeles. I have chosen a few dessert places that I feel are must trys and have explained why each place is so good! I go over the price, location, what they ahve, and for what type of person each place is tailored to. REDO THIS AND MAKE IT BETTER!</p>
+    </section>
+
+    <section id="grid2">
+    <h1 id="BiggChill">Bigg Chill</h1>
+    <p> Bigg Chill is a frozen yogurt place located in a very central part of West LA. It is very easy for people that live in Bel Air, Beverly Hills, Westwood, and Brentwood to go to. This frozen yogurt place is extremely popular due to its variety of toppings (including edible cookie dough) and flavors that change every Monday Wednesday and Friday. There are dairy free, low calorie, and normal flavors to try and appeal to everyone. Although it may seem a bit pricy, the portions are very big! One thing to note is Bigg Chill is cash only but not to worry if you dont have cash on you as there is an ATM inside! add more abt when to go (when it is most busy and not), what type of peopel go and make better!<p>
+      <h4 id="click">Click here to show tips</h4>
+      <ul id="showList">
+        <li>Location: 10850 W Olympic Blvd, Los Angeles, CA 90064</li>
+        <li>Hours: 9am-11pm</li>
+        <li>Price: Small $5, medium 5.50, Large 6.25, pint 7.25, quart 9.25</li>
+      </ul>
+
+
+    </section>
+
+    <section id="grid3">
+      <h1 id="SaltandStraw">Salt and Straw</h1>
+      <p>Salt and straw is a very unique ice cream place. There are many locations but the one I am focusing on is the one in West Hollywood. This icecream place is located in a very fun part of Los Angeles so eating ice cream and people watching is a guarantee. The flavors are extremely original and you are not likely to find any other flavors like these at another place. add more</p>
+      <ul>
+        <li>Location: 8949 Santa Monica Blvd, West Hollywood, CA</li>
+        <li>Hours: everyday 11am-11pm</li>
+        <li>Price: A single scoop is $4.95, double $6.95 and kids' scoop $3.95, pint is $10.50</li>
+      </ul>
+    </section>
+
+    <section id="grid4">
+      <h1 id="Kith">Kith</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <ul>
+        <li>Location: 8500 Sunset Blvd, West Hollywood, CA 90069</li>
+        <li>Hours: 10am-9pm</li>
+        <li>Price: prices start at $6.50 with 2 complimentary mix ins and each additional mix in is an extra $.75</li>
+      </ul>
+    </section>
+
+    <section id="grid5">
+      <h1 id="DiddyReiss">Diddy Riese</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <ul>
+        <li>Location: 926 Broxton Ave, Los Angeles, CA 90024</li>
+        <li>Hours: everyday 11am-21pm</li>
+        <li>Price: an ice cream sandwhich is $3, $.50 for a cookie, $1 for a scoop of ice cream</li>
+      </ul>
+    </section>
+
+
+    </main>
+
+
+    <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#showList").hide();
+        $("h4").css("color","pink");
+
+      $("#click").click(function(){
+        $("#showList").slideToggle();
+
+      };
+
+
+      });
+
     </script>
+
+
+
 
   </body>
 </html>
