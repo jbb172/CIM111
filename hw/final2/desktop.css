@@ -11,39 +11,139 @@ text-align:center;
 #section1,
 #section2,
 #section3,
-#section4{
+#section4,
+#section5{
 background-size: cover;
 }
 
 /* Defining each section background and styles
 * --------------------------------------- */
 #section1{
-background-image: url(imgs/bg1.jpg);
+background-image: url(imgs/la.jpeg);
 }
+
 #section2{
-background-image: url(imgs/bg2.jpg);
+background-image: url(imgs/bigg.jpeg);
 padding: 6% 0 0 0;
 }
 #section3{
-background-image: url(imgs/bg3.jpg);
+background-image: url(imgs/ss.jpeg);
 padding: 6% 0 0 0;
 }
 #section4{
-background-image: url(imgs/bg3.jpg);
+background-image: url(imgs/diddy.jpeg);
+padding: 6% 0 0 0;
+}
+#section5{
+background-image: url(imgs/kith.jpeg);
 padding: 6% 0 0 0;
 }
 
 #subSection1{
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 400px 400px 400px;
+  }
+
+#subSection2{
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 400px 400px 400px;
+  }
+
+#subSection3{
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 400px 400px 400px;
+  }
+
+#subSection4{
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 400px 400px 400px;
 }
 
+#subSection5{
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 400px 400px 400px;
+  }
+#welcome{
+  background:rgba(0,0,255,0.5);
+  color:white;
+}
+#about{
+  font-size: 20px;
+  color: white;
+  background: rgba(0,0,255,0.5);
+}
 
+#bigg{
+  font-size:30px;
+  font-weight: bold;
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  background: rgba(0,0,255,0.2);
+}
 
+#chill{
+  font-size:18px;
+  font-weight: bold;
+  color:white;
+  background: rgba(0,0,255,0.2);
+}
 
+#salt{
+  font-size:30px;
+  font-weight: bold;
+   background: rgba(255, 0, 0, 0.4);
+  color:white;
+  font-family: 'Dosis', sans-serif;
+}
+
+#straw{
+  font-size:17px;
+  font-weight: bold;
+  background: rgba(255, 0, 0, 0.4);
+  color:white;
+}
+
+#diddy{
+  font-size:30px;
+  font-weight: bold;
+  background: hsla(0, 100%, 90%, 0.3);
+  font-family: 'Dosis', sans-serif;
+}
+
+#riese{
+  font-size:20px;
+  font-weight: bold;
+  background: hsla(0, 100%, 90%, 0.3);
+
+}
+
+#kith{
+  font-size:30px;
+  font-weight: bold;
+  background:rgba(255,255,0,0.3);
+  font-family: 'Dosis', sans-serif;
+}
+
+#treats{
+  font-size:20px;
+  font-weight: bold;
+  background:rgba(255,255,0,0.3);
+}
 /*  */
 /* Style for our header texts
 * --------------------------------------- */
