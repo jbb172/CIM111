@@ -106,7 +106,7 @@ padding: 6% 0 0 0;
 #salt{
   font-size:30px;
   font-weight: bold;
-   background: rgba(255, 0, 0, 0.4);
+   background: rgba(255, 0, 0, 0.6);
   color:white;
   font-family: 'Dosis', sans-serif;
 }
@@ -114,7 +114,7 @@ padding: 6% 0 0 0;
 #straw{
   font-size:17px;
   font-weight: bold;
-  background: rgba(255, 0, 0, 0.4);
+  background: rgba(255, 0, 0, 0.6);
   color:white;
 }
 
@@ -135,14 +135,14 @@ padding: 6% 0 0 0;
 #kith{
   font-size:30px;
   font-weight: bold;
-  background:rgba(255,255,0,0.3);
+  background:rgba(255,255,0,0.6);
   font-family: 'Dosis', sans-serif;
 }
 
 #treats{
-  font-size:20px;
+  font-size:15px;
   font-weight: bold;
-  background:rgba(255,255,0,0.3);
+  background:rgba(255,255,0,0.6);
 }
 /*  */
 /* Style for our header texts
